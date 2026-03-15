@@ -122,474 +122,249 @@
 
  <body class="bg-white">
   <!-- =========================
-  Top Nav Buttons
-  =========================== -->
-  <!-- <div
-    class="px-5 py-1.5 bg-ns-green top-nav"
-    accesskey="top-green-nav"
-    data-ns-animate
-    data-direction="up"
-  >
-    <div class="">
-      <div class="flex items-center justify-between">
-        <div class="flex items-center gap-4">
-          <figure class="max-[400px]:pt-0.5 size-9">
-            <img src="images/shared/logo.svg" alt="GrayCore ERP" />
-          </figure>
-
-          <figcaption
-            class="text-secondary text-[10px] font-inter-tight md:text-tagline-2 font-normal leading-[150%]"
-          >
-            GrayCore ERP — A unified platform for managing finance, sales, HR, inventory, and operations.
-          </figcaption>
-        </div>
-
-        <div class="flex items-center gap-x-3">
-          <a
-            href="#pricing"
-            class="shadow-1 bg-background-5 hidden h-8 md:inline-block border-stroke-7 text-accent px-4 py-1 rounded-full cursor-pointer text-center transition-all duration-300 ease-in-out font-normal text-nowrap hover:scale-102"
-          >
-            <span>View Pricing</span>
-          </a>
-
-          <a
-            href="#features"
-            class="shadow-1 bg-transparent border-stroke-7 h-8 flex items-center justify-center text-secondary border px-4 py-1 rounded-full cursor-pointer text-center transition-all duration-300 ease-in-out font-normal text-nowrap hover:scale-102"
-          >
-            <span>Explore Features</span>
-          </a>
-
-          <figure class="size-6 cursor-pointer ml-1 close-top-nav">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-              <path
-                d="M22.8358 22.3639L22.3643 22.8353C22.104 23.0956 21.6819 23.0956 21.4215 22.8353L16.0004 17.4141L10.5792 22.8352C10.3189 23.0956 9.89675 23.0956 9.6364 22.8352L9.16499 22.3638C8.90464 22.1035 8.90464 21.6814 9.16499 21.421L14.5862 15.9999L9.16499 10.5787C8.90464 10.3184 8.90464 9.89626 9.16499 9.63591L9.63639 9.16451C9.89674 8.90416 10.3189 8.90416 10.5792 9.16451L16.0004 14.5857L21.4215 9.1645C21.6819 9.90415 22.104 8.90415 22.3643 9.1645L22.8358 9.6359C23.0961 9.89625 23.0961 10.3184 22.8358 10.5787L17.4146 15.9999L22.8358 21.421C23.0961 21.6814 23.0961 22.1035 22.8358 22.3639Z"
-                class="fill-secondary"
-              />
-            </svg>
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  <!-- =========================
   Header
   =========================== -->
-  <header>
-    <div
-      class="header-one lp:!max-w-[1290px] has-top-nav fixed top-13.5 left-1/2 z-50 mx-auto flex w-full max-w-[350px] -translate-x-1/2 items-center justify-between rounded-full bg-white px-2.5 py-2.5 opacity-0 backdrop-blur-[25px] min-[425px]:max-w-[375px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xl:py-0"
-      data-ns-animate
-      data-direction="up"
-      data-offset="100"
-    >
-      <div>
-        <a href="#home">
-          <span class="sr-only">Home</span>
-          <figure class="hidden lg:block lg:max-w-[198px]">
-            <img src="images/shared/logo.svg" alt="GrayCore ERP" class="dark:invert" />
-          </figure>
-          <figure class="block max-w-[44px] lg:hidden">
-            <img
-              src="images/shared/logo.svg"
-              alt="GrayCore ERP"
-              class="block w-full dark:hidden"
-            />
-            <img
-              src="images/shared/logo.svg"
-              alt="GrayCore ERP"
-              class="hidden w-full dark:block"
-            />
-          </figure>
-        </a>
-      </div>
+<header class="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-200">
 
-      <!-- Desktop Nav -->
-      <nav class="hidden items-center xl:flex">
-        <ul class="flex items-center">
-          <li class="nav-item relative cursor-pointer py-2.5">
-            <a
-              href="#about"
-              class="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
-            >
-              <span>About</span>
-            </a>
-          </li>
+  <div
+    class="header-one mx-auto flex w-full max-w-[1200px] items-center justify-between px-6 py-3"
+    data-ns-animate
+    data-direction="up"
+    data-offset="100"
+  >
 
-          <li class="nav-item relative cursor-pointer py-2.5">
-            <a
-              href="#features"
-              class="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
-            >
-              <span>Features</span>
-            </a>
-          </li>
-
-          <li
-            class="nav-item relative cursor-pointer py-2.5"
-            data-menu="resources-dropdown-menu-v2"
-          >
-            <a
-              href="#"
-              class="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
-            >
-              <span>Resources</span>
-              <span
-                class="nav-arrow block origin-center translate-y-px transition-all duration-300"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-4"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                  />
-                </svg>
-              </span>
-            </a>
-
-            <div>
-              <div
-                class="dropdown-menu-bridge absolute left-1/2 -translate-x-1/2 top-full w-full h-3 z-40 min-w-[280px] pointer-events-none bg-transparent opacity-0"
-              ></div>
-
-              <ul
-                id="resources-dropdown-menu-v2"
-                class="dropdown-menu mt-2 w-[280px] rounded-[20px] p-3 bg-white dark:bg-background-6 shadow-14 absolute left-1/2 -translate-x-1/2 top-full z-50 pointer-events-none opacity-0 border border-stroke-1 dark:border-background-7"
-              >
-                <li>
-                  <a href="#modules" class="p-3 rounded-[10px] flex items-center gap-2 relative group">
-                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-background-3 dark:bg-background-7 opacity-0 group-hover:opacity-100 rounded-[10px] z-0 transition-all duration-400"></div>
-                    <span class="text-tagline-1 font-normal text-secondary dark:text-accent relative z-10">
-                      Extension Modules
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#faq" class="p-3 rounded-[10px] flex items-center gap-2 relative group">
-                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-background-3 dark:bg-background-7 opacity-0 group-hover:opacity-100 rounded-[10px] z-0 transition-all duration-400"></div>
-                    <span class="text-tagline-1 font-normal text-secondary dark:text-accent relative z-10">
-                      FAQ
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact" class="p-3 rounded-[10px] flex items-center gap-2 relative group">
-                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-background-3 dark:bg-background-7 opacity-0 group-hover:opacity-100 rounded-[10px] z-0 transition-all duration-400"></div>
-                    <span class="text-tagline-1 font-normal text-secondary dark:text-accent relative z-10">
-                      Contact
-                    </span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-
-          <li class="nav-item relative cursor-pointer py-2.5">
-            <a
-              href="#pricing"
-              class="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
-            >
-              <span>Pricing</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- Desktop Login Button -->
-      <div class="hidden items-center justify-center xl:flex">
-        <div
-          class="group/btn-v2 mx-auto inline-block w-[85%] rounded-full transition-transform duration-500 ease-in-out md:mx-0 md:w-auto"
->
-      <a
-      href="https://core.grayhost.dev/login/"
-      class="btn-md-v2 btn-secondary-v2 group-hover/btn-v2:btn-primary-v2 mx-auto inline-flex h-12 w-full cursor-pointer items-center justify-center gap-2 rounded-full text-center font-medium text-nowrap lowercase transition-all duration-500 ease-in-out md:mx-0 md:h-auto md:w-auto"
-    >
-      <span class="inline-block transition-transform duration-300 ease-in-out first-letter:uppercase">
-        Login
-      </span>
-
-      <!-- Arrow Icon -->
-      <span class="flex items-center">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="w-5 h-5 transition-transform duration-300 group-hover/btn-v2:translate-x-1"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          stroke-width="2"
-        >
-          <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/>
-        </svg>
-      </span>
-     </a>
-
-          </a>
-        </div>
-      </div>
-
-      <!-- Mobile Hamburger -->
-      <div class="block xl:hidden">
-        <button
-          class="nav-hamburger bg-background-4 dark:bg-background-6 flex size-12 cursor-pointer flex-col items-center justify-center gap-[5px] rounded-full"
-        >
-          <span class="sr-only">Menu</span>
-          <span class="bg-stroke-9 dark:bg-stroke-1 block h-0.5 w-6"></span>
-          <span class="bg-stroke-9 dark:bg-stroke-1 block h-0.5 w-6"></span>
-          <span class="bg-stroke-9 dark:bg-stroke-1 block h-0.5 w-6"></span>
-        </button>
-      </div>
-    </div>
-
-    <!-- =========================
-    Mobile Menu
-    =========================== -->
-    <div class="mobile-nav-wrapper fixed inset-0 z-[999] hidden xl:hidden">
-      <div class="mobile-nav-overlay absolute inset-0 bg-black/40"></div>
-
-      <div class="mobile-nav-panel absolute top-0 right-0 h-full w-full max-w-[360px] bg-white dark:bg-background-6 shadow-14 overflow-y-auto p-5">
-        <div class="flex items-center justify-between mb-6">
-          <a href="#home">
-            <img src="images/shared/logo.svg" alt="GrayCore ERP" class="max-w-[150px]" />
-          </a>
-
-          <button class="mobile-nav-close size-10 flex items-center justify-center rounded-full bg-background-4 dark:bg-background-7">
-            <span class="sr-only">Close menu</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" class="size-5">
-              <path
-                d="M22.8358 22.3639L22.3643 22.8353C22.104 23.0956 21.6819 23.0956 21.4215 22.8353L16.0004 17.4141L10.5792 22.8352C10.3189 23.0956 9.89675 23.0956 9.6364 22.8352L9.16499 22.3638C8.90464 22.1035 8.90464 21.6814 9.16499 21.421L14.5862 15.9999L9.16499 10.5787C8.90464 10.3184 8.90464 9.89626 9.16499 9.63591L9.63639 9.16451C9.89674 8.90416 10.3189 8.90416 10.5792 9.16451L16.0004 14.5857L21.4215 9.1645C21.6819 8.90415 22.104 8.90415 22.3643 9.1645L22.8358 9.6359C23.0961 9.89625 23.0961 10.3184 22.8358 10.5787L17.4146 15.9999L22.8358 21.421C23.0961 21.6814 23.0961 22.1035 22.8358 22.3639Z"
-                class="fill-secondary dark:fill-accent"
-              />
-            </svg>
-          </button>
-        </div>
-
-        <ul>
-          <li>
-            <a
-              href="#about"
-              class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-            >
-              About
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="#features"
-              class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-            >
-              Features
-            </a>
-          </li>
-
-          <li class="relative space-y-0">
-            <button
-              class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer"
-            >
-              <span>Resources</span>
-              <span class="sub-menu-arrow transition-all duration-300">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                >
-                  <path
-                    d="M8 12L12 8L8 4"
-                    class="stroke-secondary dark:stroke-accent"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-            </button>
-
-            <div
-              class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 overflow-y-auto"
-            >
-              <ul>
-                <li>
-                  <a
-                    href="#modules"
-                    class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-                  >
-                    Extension Modules
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#faq"
-                    class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-                  >
-                    FAQ
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#contact"
-                    class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block"
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-
-          <li>
-            <a
-              href="#pricing"
-              class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-            >
-              Pricing
-            </a>
-          </li>
-
-          <li class="pt-4">
-            <a
-              href="https://core.grayhost.dev/login"
-              class="inline-flex items-center justify-center w-full rounded-full bg-primary px-5 py-3 text-white font-medium transition-all duration-300"
-            >
-              Login
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-<aside
-  class="sidebar dark:bg-background-7 scroll-bar fixed top-0 right-0 z-[999] h-screen w-full translate-x-full bg-white transition-all duration-300 sm:w-1/2 xl:hidden"
->
-  <div class="space-y-4 p-5 sm:p-8 lg:p-9">
-    <div class="flex items-center justify-between">
-      <a href="index-2.html">
+    <!-- Logo -->
+    <div>
+      <a href="#home">
         <span class="sr-only">Home</span>
-        <figure class="max-w-[44px]">
-          <img src="images/shared/logo.svg" alt="GrayCoreERP" class="block w-full dark:hidden" />
-          <img src="images/shared/logo-dark.svg" alt="GrayCoreERP" class="hidden w-full dark:block" />
+
+        <figure class="hidden lg:block lg:max-w-[200px]">
+          <img src="/images/shared/logo-full.svg" alt="GrayCore ERP" class="dark:invert" width="200x"/>
+        </figure>
+
+        <figure class="block max-w-[44px] lg:hidden">
+          <img
+            src="/images/shared/logo-full.svg"
+            alt="GrayCore ERP"
+            class="block w-full dark:hidden"
+          />
+          <img
+            src="/images/shared/logo-full.svg"
+            alt="GrayCore ERP"
+            class="hidden w-full dark:block"
+          />
         </figure>
       </a>
-      <button
-        class="nav-hamburger-close bg-background-4 dark:bg-background-9 relative flex size-10 cursor-pointer flex-col items-center justify-center gap-1.5 rounded-full"
-      >
-        <span class="sr-only">Close Menu</span>
-        <span class="bg-stroke-9/60 dark:bg-stroke-1 absolute block h-0.5 w-4 rotate-45"></span>
-        <span class="bg-stroke-9/60 dark:bg-stroke-1 absolute block h-0.5 w-4 -rotate-45"></span>
-      </button>
     </div>
-    <div class="scroll-bar h-[85vh] w-full overflow-x-hidden overflow-y-auto pb-10">
-      <ul>
-  <!-- Home -->
-  <li>
-    <a
-      href="#home"
-      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-    >
-      Home
-    </a>
-  </li>
 
-  <!-- About -->
-  <li>
-    <a
-      href="#about"
-      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-    >
-      About
-    </a>
-  </li>
 
-  <!-- Features -->
-  <li>
-    <a
-      href="#features"
-      class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
-    >
-      Features
-    </a>
-  </li>
+    <!-- Desktop Nav -->
+    <nav class="hidden items-center xl:flex">
+      <ul class="flex items-center">
 
-  <!-- Resources dropdown -->
-  <li class="relative space-y-0">
-    <button
-      class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer"
-    >
-      <span>Resources</span>
-      <span class="sub-menu-arrow transition-all duration-300">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          viewBox="0 0 16 16"
-          fill="none"
-        >
-          <path
-            d="M8 12L12 8L8 4"
-            class="stroke-secondary dark:stroke-accent"
-            stroke-width="1.5"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </span>
-    </button>
-
-    <div
-      class="hidden ml-3.5 transition-all duration-300 w-full bg-white dark:bg-background-7 overflow-y-auto"
-    >
-      <ul>
-        <li>
+        <li class="nav-item relative cursor-pointer py-2.5">
           <a
-            href="#modules"
-            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
+            href="#about"
+            class="text-tagline-1 text-secondary/80 hover:text-secondary flex items-center gap-1 px-4 py-2 font-normal transition-all duration-200"
           >
-            Extension Modules
+            <span>About</span>
           </a>
         </li>
-        <li>
+
+        <li class="nav-item relative cursor-pointer py-2.5">
+          <a
+            href="#features"
+            class="text-tagline-1 text-secondary/80 hover:text-secondary flex items-center gap-1 px-4 py-2 font-normal transition-all duration-200"
+          >
+            <span>Features</span>
+          </a>
+        </li>
+
+
+        <!-- Resources -->
+        <li
+          class="nav-item relative cursor-pointer py-2.5"
+          data-menu="resources-dropdown-menu-v2"
+        >
+
+          <a
+            href="#"
+            class="text-tagline-1 text-secondary/80 hover:text-secondary flex items-center gap-1 px-4 py-2 font-normal transition-all duration-200"
+          >
+
+            <span>Resources</span>
+
+            <span
+              class="nav-arrow block origin-center translate-y-px transition-all duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </span>
+
+          </a>
+
+
+          <div>
+
+            <div
+              class="dropdown-menu-bridge absolute left-1/2 -translate-x-1/2 top-full w-full h-3 z-40 min-w-[280px] pointer-events-none bg-transparent opacity-0"
+            ></div>
+
+
+            <ul
+              id="resources-dropdown-menu-v2"
+              class="dropdown-menu mt-2 w-[280px] rounded-[20px] p-3 bg-white shadow-14 absolute left-1/2 -translate-x-1/2 top-full z-50 pointer-events-none opacity-0 border border-stroke-1"
+            >
+
+              <li>
+                <a href="#modules" class="p-3 rounded-[10px] flex items-center gap-2 relative group">
+
+                  <div
+                    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-background-3 opacity-0 group-hover:opacity-100 rounded-[10px] z-0 transition-all duration-400"
+                  ></div>
+
+                  <span
+                    class="text-tagline-1 font-normal text-secondary relative z-10"
+                  >
+                    Extension Modules
+                  </span>
+
+                </a>
+              </li>
+
+
+              <li>
+                <a href="#faq" class="p-3 rounded-[10px] flex items-center gap-2 relative group">
+
+                  <div
+                    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-background-3 opacity-0 group-hover:opacity-100 rounded-[10px] z-0 transition-all duration-400"
+                  ></div>
+
+                  <span
+                    class="text-tagline-1 font-normal text-secondary relative z-10"
+                  >
+                    FAQ
+                  </span>
+
+                </a>
+              </li>
+
+
+              <li>
+                <a href="#contact" class="p-3 rounded-[10px] flex items-center gap-2 relative group">
+
+                  <div
+                    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-background-3 opacity-0 group-hover:opacity-100 rounded-[10px] z-0 transition-all duration-400"
+                  ></div>
+
+                  <span
+                    class="text-tagline-1 font-normal text-secondary relative z-10"
+                  >
+                    Contact
+                  </span>
+
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </li>
+
+
+        <li class="nav-item relative cursor-pointer py-2.5">
           <a
             href="#pricing"
-            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block"
+            class="text-tagline-1 text-secondary/80 hover:text-secondary flex items-center gap-1 px-4 py-2 font-normal transition-all duration-200"
           >
-            Pricing
+            <span>Pricing</span>
           </a>
         </li>
-        <li>
-          <a
-            href="#faq"
-            class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 w-full text-left block"
-          >
-            FAQ
-          </a>
-        </li>
-      </ul>
-    </div>
-  </li>
 
-  <!-- Login button -->
-  <li class="pt-4">
-    <a
-      href="https://core.grayhost.dev/login"
-      class="inline-flex items-center justify-center w-full rounded-full bg-primary px-5 py-3 text-white font-medium transition-all duration-300 hover:opacity-90"
-    >
-      Login
-    </a>
-  </li>
-</ul>
+      </ul>
+    </nav>
+
+
+
+    <!-- Desktop Login -->
+    <div class="hidden items-center justify-center xl:flex">
+
+      <div
+        class="group/btn-v2 mx-auto inline-block w-[85%] transition-transform duration-500 ease-in-out md:mx-0 md:w-auto"
+      >
+
+        <a
+          href="https://core.grayhost.dev/login/"
+          class="btn-md-v2 btn-secondary-v2 group-hover/btn-v2:btn-primary-v2 mx-auto inline-flex h-12 w-full cursor-pointer items-center justify-center gap-2 text-center font-medium lowercase text-nowrap transition-all duration-500 ease-in-out md:mx-0 md:h-auto md:w-auto"
+        >
+
+          <span
+            class="inline-block transition-transform duration-300 ease-in-out first-letter:uppercase"
+          >
+            Login
+          </span>
+
+
+          <span class="flex items-center">
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 transition-transform duration-300 group-hover/btn-v2:translate-x-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/>
+
+            </svg>
+
+          </span>
+
+        </a>
+
+      </div>
+
     </div>
+
+
+
+    <!-- Mobile Hamburger -->
+    <div class="block xl:hidden">
+
+      <button
+        class="nav-hamburger flex size-10 cursor-pointer flex-col items-center justify-center gap-[5px]"
+      >
+
+        <span class="sr-only">Menu</span>
+
+        <span class="bg-stroke-9 block h-0.5 w-6"></span>
+        <span class="bg-stroke-9 block h-0.5 w-6"></span>
+        <span class="bg-stroke-9 block h-0.5 w-6"></span>
+
+      </button>
+
+    </div>
+
   </div>
-</aside>
 
 </header>
+
+
 
     <main class="space-y-10">
       <!-- ==========================Hero=========================== -->
@@ -2521,6 +2296,80 @@ Testimonail section
   <script src="vendor/number-counter.js"></script>
   <script src="vendor/stack-card.min.js"></script>
   <script src="assets/main.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.querySelector(".nav-hamburger");
+    const mobileNavWrapper = document.querySelector(".mobile-nav-wrapper");
+    const mobileNavPanel = document.querySelector(".mobile-nav-panel");
+    const mobileNavClose = document.querySelector(".mobile-nav-close");
+    const mobileNavOverlay = document.querySelector(".mobile-nav-overlay");
+    const mobileLinks = document.querySelectorAll(".mobile-nav-link");
+    const subMenuButtons = document.querySelectorAll(".sub-menu");
+
+    if (!hamburger || !mobileNavWrapper || !mobileNavPanel) {
+      console.log("Mobile nav elements not found");
+      return;
+    }
+
+    function openMobileMenu() {
+      mobileNavWrapper.classList.remove("hidden");
+
+      requestAnimationFrame(() => {
+        mobileNavOverlay.classList.remove("opacity-0");
+        mobileNavOverlay.classList.add("opacity-100");
+
+        mobileNavPanel.classList.remove("translate-x-full");
+        mobileNavPanel.classList.add("translate-x-0");
+      });
+
+      document.body.classList.add("overflow-hidden");
+    }
+
+    function closeMobileMenu() {
+      mobileNavOverlay.classList.remove("opacity-100");
+      mobileNavOverlay.classList.add("opacity-0");
+
+      mobileNavPanel.classList.remove("translate-x-0");
+      mobileNavPanel.classList.add("translate-x-full");
+
+      document.body.classList.remove("overflow-hidden");
+
+      setTimeout(() => {
+        mobileNavWrapper.classList.add("hidden");
+      }, 300);
+    }
+
+    hamburger.addEventListener("click", openMobileMenu);
+
+    if (mobileNavClose) {
+      mobileNavClose.addEventListener("click", closeMobileMenu);
+    }
+
+    if (mobileNavOverlay) {
+      mobileNavOverlay.addEventListener("click", closeMobileMenu);
+    }
+
+    mobileLinks.forEach((link) => {
+      link.addEventListener("click", closeMobileMenu);
+    });
+
+    subMenuButtons.forEach((button) => {
+      button.addEventListener("click", function () {
+        const subMenu = this.nextElementSibling;
+        const arrow = this.querySelector(".sub-menu-arrow");
+
+        if (!subMenu) return;
+
+        subMenu.classList.toggle("hidden");
+
+        if (arrow) {
+          arrow.classList.toggle("rotate-90");
+        }
+      });
+    });
+  });
+</script>
+
 </footer>
 
   </body>
